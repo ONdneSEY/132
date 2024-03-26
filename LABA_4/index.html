@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6c9b6e32cd.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href=".css">
 </head>
@@ -16,9 +17,9 @@
                 </div>
                 <div class="flex-content_2"style="flex-grow: 1">
                     <div class="flex-img">
-                        <div class="icon"><img class="img_icon" src="img/logo_kakulator.png" alt=""></div>
-                        <div class="icon"><img class="img_icon" src="img/ik_gaz.png" alt=""></div>
-                        <div class="icon"><img class="img_icon" src="img/ic_journey.png" alt=""></div>
+                        <div class="icon"><i class="fa-regular fa-calendar-days"></i></div>
+                        <div class="icon"><i class="fa-regular fa-newspaper"></i></div>
+                        <div class="icon"><i class="fa-regular fa-compass"></i></div>
                         <div class="line"><img src="img/line.png" alt=""></div>
                         <div>Welcome, <a href="">Log In</a> or <a href="">Sign Up</a></div>
                     </div>
@@ -28,7 +29,6 @@
             </div> 
         </header>
         <main> 
-            <center>
                 <div class="menu">
                     <div class="flex-box_main"> 
                         <div class="flex-content_main1"><img src="img/gren.png" alt=""></div>    
@@ -58,20 +58,21 @@
                     <div class="flex-vertical_line">
                         <img src="img/line_vert.png" alt=""><p class="or">or</p><img src="img/line_vert.png" alt="">
                     </div>
-                        <input class="list-box" type = "text"  name = "name" value="Name"> 
-                        <input class="list-box" type = "text"  name = "lastName" value="Last Name"> 
-                        <input class="list-box" type = "text"  name = "emaill" value="Emaill"> 
-                        <input class="list-box" type = "text"  name = "choosePassword" value="Choose Password"> 
-                        <input class="list-box" type = "text"  name = "confirmPassword" value="Confirm Password"> 
-                    <div class="mark" >
-                        <p>Agree our <a href="">Terms & Conditions</a></p>
-                    </div>
+                        <input class="list-box" type = "text"  name = "name" placeholder="Name" /> 
+                        <input class="list-box" type = "text"  name = "lastName" placeholder="Last Name"> 
+                        <input class="list-box" type = "text"  name = "emaill" placeholder="Emaill"> 
+                        <input class="list-box" type = "text"  name = "choosePassword" placeholder="Choose Password"> 
+                        <input class="list-box" type = "text"  name = "confirmPassword" placeholder="Confirm Password"> 
+                        <label class="mark" >
+                        <input type="checkbox" name="Terms & Conditions" />
+                            <span></span>
+                            <div class="text">Agree our <a href="">Terms & Conditions</a></div>            
+                        </label>
                     <div class="button_create">
                         <button class="button_createAccount">Create Account</button>
                     </div>
                                       
                 </div>
-            </center>
         </main>
         <footer>  
             

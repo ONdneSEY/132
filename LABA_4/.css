@@ -1,7 +1,7 @@
 *, header{
     font-family: "Arimo", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
 }
 .container {
@@ -11,8 +11,14 @@
     background: url(img/background.png);
     background-repeat: no-repeat;
     color: white;
+    margin: 0 auto;
 }
-
+i{
+    font-size: 20px;
+}
+i:hover{
+    color: #3cb878;
+}
 a{
     color: #3cb878;
     text-decoration: none;
@@ -22,8 +28,8 @@ a:hover{
 }
 .linc_JOURNEY{
     color: white;
-    font-weight: 700;
-    font-size: 15px;
+    font-weight: bold;
+    font-size: 20px;
 }
 .linc_JOURNEY:hover{
     color: #3cb878;
@@ -31,7 +37,7 @@ a:hover{
 }
 header{
     font-weight: 400;
-    font-size: 10px;
+    font-size: 13px;
     background-color: rgba(0, 0, 0, 0.5) ;
 }
 .flex-box{
@@ -66,7 +72,7 @@ header{
     align-items: center;
     color: black;
     margin: 65px auto;
-    border-radius: 2%;
+    border-radius: 5px;
 }
 
 .flex-box_main{
@@ -79,7 +85,7 @@ header{
     padding: 0 45px 0 0;
 }
 .flex-content_main2{
-    padding: 0 225px 0 0;
+    padding: 0 210px 0 0;
 }
 
 .SignUp {
@@ -88,7 +94,7 @@ header{
     padding: 30px 0 0 0;
 }
 .LogIn{
-    font-size: 10px;
+    font-size: 13px;
     padding: 30px 0 0 0;
 }
 .flex-box_dutton{
@@ -105,7 +111,7 @@ header{
     background-color: #305db8;
     border: 0px;
     color: white;
-    border-radius: 2%;
+    border-radius: 5px;
 }
 .flex-box_face{
     display: flex;
@@ -129,7 +135,7 @@ header{
     background-color: #df4a32;
     border: 0px;
     color: white;
-    border-radius: 2%;
+    border-radius: 5px;
 }
 .flex-box_google{
     display: flex;
@@ -169,12 +175,55 @@ b{
     margin: 9px 0 0 0;
     color: #b2b2b2;
     border: 1px solid #b2b2b2;
-    border-radius: 4%;
-    font-size: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.list-box:focus{
+    color: black;
+    font-weight: 600;
+}
+.list-box:focus-visible{
+    outline: 0;
+    
 }
 
 .mark{
-    padding: 20px 0 0 0;;
+    width: 320px;
+    display: flex;
+    align-items: flex-end; 
+    padding: 20px 0 0 0;
+}
+.mark input{
+    display: none;
+}
+.mark input ~ span{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border: 1px solid silver;
+    border-radius: 3px;
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+}
+.mark input:checked ~ span{
+    background-color: white;
+}
+.mark input:checked ~ span:after{
+    content: "";
+    width: 6px;
+    height: 3px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-left: 2px solid #3cb878;
+    border-bottom: 2px solid #3cb878;
+    transform: rotate( -45deg);
+}
+.text{
+    padding: 0 0 0 10px;
+    
 }
 
 .button_create{
@@ -189,7 +238,7 @@ b{
     background-color: #3cb878;
     border: 0px;
     color: white;
-    border-radius: 2%;
+    border-radius: 5px;
 }
 .button_createAccount:hover{
     background-color: #2a8556;
