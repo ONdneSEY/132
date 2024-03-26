@@ -11,8 +11,15 @@
     background: url(img/background.png);
     background-repeat: no-repeat;
     color: white;
+    margin: 0 auto;
 }
-
+i{
+    font-size: 20px;
+    color: white;
+}
+i:hover{
+    color: #3cb878;
+}
 a{
     color: #3cb878;
     text-decoration: none;
@@ -31,7 +38,7 @@ a:hover{
 }
 header{
     font-weight: 400;
-    font-size: 10px;
+    font-size: 12px;
     background-color: rgba(0, 0, 0, 0.5) ;
 }
 .flex-box{
@@ -174,7 +181,42 @@ b{
 }
 
 .mark{
-    padding: 20px 0 0 0;;
+    width: 320px;
+    display: flex;
+    align-items: flex-end; 
+    padding: 20px 0 0 0;
+}
+.mark input{
+    display: none;
+}
+.mark input ~ span{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border: 1px solid silver;
+    border-radius: 3px;
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+}
+.mark input:checked ~ span{
+    background-color: white;
+}
+.mark input:checked ~ span:after{
+    content: "";
+    width: 6px;
+    height: 3px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-left: 2px solid #3cb878;
+    border-bottom: 2px solid #3cb878;
+    transform: rotate( -45deg);
+}
+.text{
+    padding: 0 0 0 10px;
+    
 }
 
 .button_create{
