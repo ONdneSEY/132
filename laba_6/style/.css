@@ -1,0 +1,214 @@
+*, div, a{
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  a{
+    color: white;
+    text-decoration: none;
+  }
+  .Flex-box-main{
+    width: 100%;
+    max-width: 1900px;
+    display: flex;
+    background-color: #1d2124;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .Flex-logoAndName{
+    display: flex;
+    align-items: center;
+  }
+  .LOGO_IMG{
+    padding: 22px 21px 21px;
+    background-color: #1a1d20;
+  }
+  .Name{
+    padding: 0 0 0 6px;
+  }
+  .Flex_menu_heder{
+    width: 700px;
+    font-size: 13px;
+    display:flex;
+    list-style:none;
+    justify-content:space-between;
+  }
+  .Search{
+    padding: 26px 24px;
+    background-color: #1a1d20;
+  }
+  .Flex-box-head{
+    width: 100%;
+    height: 370px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  button{
+    height: 55px;
+    width: 170px;
+    border: 0;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+
+    border-radius: 5px;
+    margin: 44px 10px 0 10px;
+  }
+  .button_header1{
+    background-color: #89ca62;
+  }
+  .button_header2{
+    background-color: #14b9d5;
+  }
+  .Flex-list-box{
+    width: 100%;
+    height: auto;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  main{
+    background-color: #f2f2f2;
+    width: 100%;
+    max-width: 1900px;
+    height: 1030px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+  }
+  .list-box{
+    width: 100%;
+    max-width: 1170px;
+    height: 1030px;
+    margin: auto;
+    text-align: center;
+  }
+  .title{
+    color: #18b4cf;
+    padding: 60px 0 52px 0;
+    font-weight: bold;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    }
+    .grid-item{
+    background-color: white;
+    width: 370px;
+    text-align: center;
+    }
+.under_text{
+    font-size: 14px;
+    padding: 25px 0;
+    font-weight: bold;
+}
+.menu_hotel{
+    width: 100%;
+    max-width: 1900px;
+    color: white;
+    background-color: black;
+}
+.content{
+    width: 100%;
+    max-width: 1170px;
+    height: 588px; 
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-direction: column;
+    text-align: center;
+
+}
+.img-rovs{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.top_reted{
+  width: 1900px;
+  text-align: center;
+}
+.grid_images_rovs{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+}
+.hot_news{
+  width: 1900px;
+  text-align: center;
+}
+.grid_images_2columns{
+  width: 1170px;
+  height: 260px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 277px 242px 242px 277px;
+  grid-gap: 35px;
+}
+.flex_menu_news_text{
+  padding: 26px;
+}
+h3{
+  padding: 22px 0;
+  font-weight: bold;
+}
+.text_menu_news{
+  text-align: right;
+}
+.h3_only{
+  padding: 15px 0;
+}
+.flex_menu_news_item-1{
+  grid-column: 1 / span 3;
+  display: flex;
+  align-items: flex-start;
+  background-color: #f9f7f7;
+}
+.flex_menu_news_item-2{
+  background-color: #f9f7f7;
+}
+.flex_menu_news_item-3{
+  grid-column: 1 / span 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #f9f7f7;
+}
+.flex_menu_news_item-4{
+  grid-column: 3 / span 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #f9f7f7;
+}
+.flex_menu_news_item-5{
+  grid-column: 2 / span 3;
+  display: flex;
+  align-items: flex-start;
+  background-color: #f9f7f7;
+}
+footer{
+  clear: both;
+  margin-top: auto;
+}
+.grid-footer{
+  width: 1170px;
+  margin-top: auto;
+  display: grid;
+  justify-content: space-evenly;
+}
+.text_footer{
+  color: white;
+  
+}
