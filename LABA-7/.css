@@ -1,0 +1,31 @@
+main{
+    background-color: black;
+    width: 100%;
+    height: 920px;
+}
+div{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    animation-name: bounce;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+p {
+    color: yellow;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+  
+@keyframes bounce {
+    0% {
+      top: 0;
+    }
+    50% {
+      top: 10%;
+    }
+    100% {
+      top: 90%;
+    }
+}
