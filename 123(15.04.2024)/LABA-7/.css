@@ -1,0 +1,43 @@
+.star-wars-crawl {
+  display: flex;
+  justify-content: center;
+  height: 950px;
+  background-color: black;
+  color: rgb(220, 220, 0); 
+  font-weight: bold; 
+  /* Це дозволяє нам трансформувати текст на 3D-площині і є якоюсь магічною цифрою */
+  perspective: 500px;
+  font-family: 'Pathway Gothic One', sans-serif; /* вибір шрифту */
+  font-size: 100px; 
+  letter-spacing: 6px; 
+}
+
+/* Стилі для самого тексту */
+.crawl-text {
+  position: relative;
+  top: 0; /* змінено на 0 */
+  /* Визначаємо центр трансформації у самому середині елемента для застосування трансформацій у анімації */
+  transform-origin: 50% 75%;
+  animation: crawl 5s linear infinite;
+}
+
+/* Центруємо текст у блоку */
+.text-center{
+  text-align: center;
+}
+
+/* Анімація */
+@keyframes crawl {
+  0% {
+      /* Елемент починається поза екраном */
+      top: 0;
+      /* Поворот тексту на 20 градусів, але тримаємо його близько до глядача */
+      transform: rotateX(20deg) translateZ(0);
+  }
+  100% { 
+      /* Це магічне число, але використовуємо велике, щоб забезпечити повне відсутність тексту на екрані в кінці */
+      top: -4000px;
+      /* Незначне збільшення обертання в кінці і віддалення тексту від глядача */
+      transform: rotateX(25deg) translateZ(-2500px);
+  }
+}
