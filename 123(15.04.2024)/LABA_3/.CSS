@@ -23,12 +23,15 @@
     display: block;  
     text-align: right; 
     background: url(IMG/LOGO.png);
-    width: 46px; /* Ширина малюнка */
+    width: 46px;
     height: 44px;
    
 }
-.float_menu1:hover{
-    background: url(IMG/LOGO-hover.png);
+.logo:hover .float_menu1 {
+    background: url(IMG/LOGO-hover.png); 
+}
+.logo:hover .float_menu2 a {
+    color: #f26522; 
 }
 .float_menu2 {
     float: left; 
@@ -38,6 +41,7 @@
     text-align: right;
     padding: 5px 0 0 0;
 }
+
 .dig-text{
     font-size: 25px;
 }
@@ -48,9 +52,6 @@
     display: block;   
     text-align: right;
     padding: 14px 0 0 0;
-}
-.float_menu1>a, .float_menu2>a:hover {
-    color: #f26522;
 }
 
 main{
