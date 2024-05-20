@@ -1,0 +1,275 @@
+*, header{
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.container {
+    width: 100%;
+    max-width: 1280px;
+    height: 770px;
+    background: url(img/background.png);
+    background-repeat: no-repeat;
+    color: white;
+    margin: 0 auto;
+}
+i{
+    font-size: 20px;
+}
+i:hover{
+    color: #3cb878;
+}
+a{
+    color: #3cb878;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.linc_JOURNEY{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.linc_JOURNEY:hover{
+    color: #3cb878;
+    text-decoration: none;
+}
+header{
+    font-weight: 400;
+    font-size: 13px;
+    background-color: rgba(0, 0, 0, 0.5) ;
+}
+.flex-box{
+    width: 100%;
+    display: flex;
+    list-style:none;
+    align-items: center;
+}
+.flex-content_1{
+    padding: 15px 0 15px 80px;
+}
+.flex-img{
+    display: flex;
+    align-items: center;
+}
+.icon1{
+    background: url(img/logo_kakulator.png);
+    display: block; 
+    width: 19px;
+    height: 19px;
+    margin-right: 25px;
+}
+.icon1:hover{
+    background: url(img/logo_kakulator_grin.png);
+}
+
+.icon2{
+    background: url(img/ik_gaz.png);
+    display: block; 
+    width: 28px;
+    height: 20px;
+    margin-right: 25px;
+}
+.icon2:hover{
+    background: url(img/ik_gaz_grin.png);
+}
+
+.icon3{
+    background: url(img/ic_journey.png);
+    display: block; 
+    width: 20px;
+    height: 20px;
+}
+.icon3:hover{
+    background: url(img/ic_journey_grin.png);
+}
+
+
+.line{
+    padding: 0 25px 0 25px;
+}
+
+.menu{
+    width: 100%;
+    max-width: 445px;
+    height: 100%;
+    max-height: 585px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    margin: 65px auto;
+    border-radius: 5px;
+}
+
+.flex-box_main{
+    width: 100%;
+    max-width: 445px;
+    display: flex;
+    align-items: flex-end;   
+}
+.flex-content_main1{
+    padding: 0 45px 0 0;
+}
+.flex-content_main2{
+    padding: 0 210px 0 0;
+}
+
+.SignUp {
+    color: black;
+    font-size: 20px;
+    padding: 30px 0 0 0;
+}
+.LogIn{
+    font-size: 13px;
+    padding: 30px 0 0 0;
+}
+.flex-box_dutton{
+    width: 100%;
+    max-width: 320px;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 33px 0;
+}
+.button_facebook{
+    width: 100%;
+    width: 155px;
+    height: 46px;
+    background-color: #305db8;
+    border: 0px;
+    color: white;
+    border-radius: 5px;
+}
+.flex-box_face{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo_facebook{
+    font-weight: bold;
+    font-size: 20px;
+}
+.lineIn_face{
+    padding: 0px 18px;
+}
+.button_facebook:hover{
+    background-color: #253d6d;
+}
+.button_google{
+    width: 100%;
+    width: 155px;
+    height: 46px;
+    background-color: #df4a32;
+    border: 0px;
+    color: white;
+    border-radius: 5px;
+}
+.flex-box_google{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo_google{
+    font-weight: bold;
+    font-size: 20px;
+}
+b{
+    font-weight: normal;
+    font-size: 15px;
+}
+.lineIn_google{
+    padding: 0px 24px 0 8px;
+}
+.button_google:hover{
+    background-color: #9b3121;
+}
+.button{
+    
+    padding: 0px 8px 0 0px;
+}
+.flex-vertical_line{
+    display: flex;
+    align-items: center;
+}
+.or{
+    padding: 0 15px 3px 15px;
+}
+
+.list-box{
+    width: 100%;
+    max-width: 288px;
+    padding: 15px ;
+    margin: 9px 0 0 0;
+    color: #b2b2b2;
+    border: 1px solid #b2b2b2;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.list-box:focus{
+    color: black;
+    font-weight: 600;
+}
+.list-box:focus-visible{
+    outline: 0;
+    
+}
+
+.mark{
+    width: 320px;
+    display: flex;
+    align-items: flex-end; 
+    padding: 20px 0 0 0;
+}
+.mark input{
+    display: none;
+}
+.mark input ~ span{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border: 1px solid silver;
+    border-radius: 3px;
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+}
+.mark input:checked ~ span{
+    background-color: white;
+}
+.mark input:checked ~ span:after{
+    content: "";
+    width: 6px;
+    height: 3px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-left: 2px solid #3cb878;
+    border-bottom: 2px solid #3cb878;
+    transform: rotate( -45deg);
+}
+.text{
+    padding: 0 0 0 10px;
+    
+}
+
+.button_create{
+    width: 100%;
+    max-width: 320px;
+    padding: 25px 0 33px 0;
+}
+
+.button_createAccount{
+    width: 100%;
+    height: 46px;
+    background-color: #3cb878;
+    border: 0px;
+    color: white;
+    border-radius: 5px;
+}
+.button_createAccount:hover{
+    background-color: #2a8556;
+}
+
