@@ -1,4 +1,4 @@
-const interactWithUser = () => {
+const User = () => {
     let name = prompt("Будь ласка, введіть ваше ім'я:");
     
     while (!name) {
@@ -26,5 +26,5 @@ const interactWithUser = () => {
     }
   };
   
-  interactWithUser();
+  User();
    
